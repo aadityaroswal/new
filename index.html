@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="A polished starter landing page for a new project workspace."
+    />
+    <title>new | Starter</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="nav container">
+        <div class="brand">new</div>
+        <div class="nav-links">
+          <a href="#features">Features</a>
+          <a href="#about">About</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero container">
+        <div class="hero-copy">
+          <p class="eyebrow">workspace starter</p>
+          <h1>Build something that feels ready.</h1>
+          <p class="subtitle">
+            A clean foundation for your next great idea, with a modern look,
+            responsive layout, and a simple interactive touch.
+          </p>
+          <div class="actions">
+            <button id="actionButton" type="button">Launch now</button>
+            <a class="secondary-link" href="#features">Explore features</a>
+          </div>
+        </div>
+
+        <div class="hero-panel" aria-label="Project summary">
+          <div class="stat">
+            <span class="label">Status</span>
+            <strong>Ready</strong>
+          </div>
+          <div class="stat">
+            <span class="label">Version</span>
+            <strong>1.0</strong>
+          </div>
+          <div class="stat">
+            <span class="label">Focus</span>
+            <strong>Launch</strong>
+          </div>
+        </div>
+      </section>
+
+      <section id="features" class="features container">
+        <div class="section-heading">
+          <p class="eyebrow">why it works</p>
+          <h2>Everything you need to start fast.</h2>
+        </div>
+
+        <div class="feature-grid">
+          <article class="card">
+            <div class="icon">⚡</div>
+            <h3>Fast setup</h3>
+            <p>Launch quickly with a lightweight static site and no framework overhead.</p>
+          </article>
+          <article class="card">
+            <div class="icon">🎨</div>
+            <h3>Modern design</h3>
+            <p>Thoughtful spacing, contrast, and responsive behavior built in.</p>
+          </article>
+          <article class="card">
+            <div class="icon">🔧</div>
+            <h3>Easy to extend</h3>
+            <p>Use this as a clean base for product pages, portfolios, or prototypes.</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="about" class="about container">
+        <div class="about-panel">
+          <p class="eyebrow">about</p>
+          <h2>Built for momentum.</h2>
+          <p>
+            This project is intentionally simple: a focused landing page that
+            gives you a ready-made starting point without unnecessary complexity.
+          </p>
+        </div>
+      </section>
+    </main>
+
+    <footer id="contact" class="site-footer">
+      <div class="container footer-inner">
+        <span>© <span id="year"></span> new</span>
+        <a href="mailto:hello@example.com">hello@example.com</a>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
